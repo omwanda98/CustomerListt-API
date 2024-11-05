@@ -1,0 +1,38 @@
+[
+  {
+    "ContainingType": "CustomerListt.Controllers.CustomerController",
+    "Method": "GetCustomerByNumber",
+    "RelativePath": "api/Customer/GetCustomer/{customerNo}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "customerNo",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CustomerListt.Controllers.CustomerController",
+    "Method": "GetCustomers",
+    "RelativePath": "api/Customer/GetCustomers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CustomerListt.Controllers.KcbController",
+    "Method": "GetToken",
+    "RelativePath": "api/Kcb/token",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

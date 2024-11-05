@@ -1,0 +1,50 @@
+﻿@page "/index"
+@inject CustomerService CustomerService
+
+<h3>Customer List</h3>
+
+@if (customers == null)
+{
+    <p>Loading...</p>
+}
+else if (customers.Count == 0)
+{
+    <p>No customers found.</p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>No</th>
+                <th>Name</th>
+                <th>Contact</th>
+                <th>Location Code</th>
+                <th>Post Code</th>
+                <th>Balance LCY</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var customer in customers)
+            {
+                <tr>
+                    <td>@customer.No</td>
+                    <td>@customer.Name</td>
+                    <td>@customer.Contact</td>
+                    <td>@customer.Location_Code</td>
+                    <td>@customer.Post_Code</td>
+                    <td>@customer.Balance_LCY</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    private List<Customer> customers;
+
+    protected override async Task OnInitializedAsync()
+    {
+        customers = await CustomerService.GetCustomersAsync();
+    }
+}

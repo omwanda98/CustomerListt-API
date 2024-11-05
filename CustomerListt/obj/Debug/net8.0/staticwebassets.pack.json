@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Jay\\source\\repos\\CustomerListt\\CustomerListt\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\CustomerListt.bundle.scp.css",
+      "PackagePath": "staticwebassets\\CustomerListt.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Jay\\source\\repos\\CustomerListt\\CustomerListt\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\Jay\\source\\repos\\CustomerListt\\CustomerListt\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Jay\\source\\repos\\CustomerListt\\CustomerListt\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Jay\\source\\repos\\CustomerListt\\CustomerListt\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.CustomerListt.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.CustomerListt.props",
+      "PackagePath": "build\\CustomerListt.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.CustomerListt.props",
+      "PackagePath": "buildMultiTargeting\\CustomerListt.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.CustomerListt.props",
+      "PackagePath": "buildTransitive\\CustomerListt.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
